@@ -1,5 +1,5 @@
 <?php
-function angkaToRoman($angka)
+function AngkaToRomawi($angka)
 {
 	 $angka = intval($angka);
 	 $result = '';
@@ -21,5 +21,5 @@ function angkaToRoman($angka)
 	 } 
 	 return $result;
 }
-	echo angkaToRoman(59);
+	echo AngkaToRomawi(59);
 ?>
